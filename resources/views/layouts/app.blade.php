@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
-    <section1>
+    <section id="section1">
         @include('partials.header')
-    </section1>
-    <section2>
+    </section>
+    <section id="section2">
         @include('partials.main')
-    </section2>
+    </section>
+    <section id="3">
+        @include('partials.footer')
+    </section>
 </body>
 </html>
